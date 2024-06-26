@@ -1,0 +1,103 @@
+:root {
+  /* colors */
+
+  --background-light: #F4F4F4;
+  --background-dark: #333333;
+
+  /* black */
+  --black-100: #fff;
+  --black-text-dark: #151515;
+  --black-text-light: #222222;
+  --white-text-dark:#E6E6E6;
+  --white-text:#FFFFFF;
+  ;
+
+  /* font-families */
+  --font-normal: "Inter", sans-serif;
+
+}
+
+.text {
+  display: block;
+  display: -webkit-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text_color_h1 {
+  color: var(--black-text-dark);
+}
+
+.text_color_black {
+  color: var(--black-text-dark);
+}
+
+.text_color_gray_dark {
+  color: var(--black-text-light);
+}
+
+.text_color_gray_light {
+  color: var(--white-text-dark);
+}
+
+.text_color_white {
+  color: var(--white-text);
+}
+
+.text_type_micro {
+	font-family: 'Inter';
+	font-size: 14px;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+.text_type_small {
+	font-family: 'Inter';
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+.text_type_medium {
+	font-family: 'Inter';
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+.text_type_large {
+	font-family: 'Inter';
+	font-size: 34px;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+.text_type_title {
+	font-family: 'Inter';
+	font-size: 55px;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+.text_type_bold {
+	font-weight: bold;
+}
+
+.text_link {
+  cursor: pointer;
+}
+
+.text_focus {
+  opacity: 75%;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
